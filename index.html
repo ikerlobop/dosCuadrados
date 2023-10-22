@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<body>
+    <h1>Movimiento simple de gráficos</h1>
+    <p></p>
+    <p>El cuadrado rojo se moverá con los cursores </p>
+    <p>El cuadrado azul perseguirá al cuadrado rojo en todo momento</p>
+    <button onclick="startGame()">Start</button>
+    <button onclick="resetGame()">Reset</button>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <script src="juego.js"></script>
+    <script>
+        // Función para iniciar el juego
+        function startGame() {
+            // Inicializa el movimiento del cuadrado rojo y azul después de cargar la página
+            moveRedSquareWithArrowKeys();
+            moveBlueSquareTowardsRed();
+        }
+        function resetGame() {
+            // Inicializa el movimiento del cuadrado rojo y azul después de cargar la página
+            reset();
+        }
+    </script>
+</body>
+</html>
