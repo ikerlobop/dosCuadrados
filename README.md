@@ -1,5 +1,6 @@
-# dosCuadrados
-# Movimiento Simple de Gráficos - Prueba en HTML5 y JavaScript
+
+# Movimiento Simple de Gráficos.
+# Juego de Persecución: Un Cuadrado Persigue a Otro.
 
 ## Descripción
 Este proyecto es una prueba desarrollado en HTML5 y JavaScript que demuestra el movimiento de gráficos en un canvas. 
