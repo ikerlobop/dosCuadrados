@@ -121,11 +121,13 @@ function draw() {
     requestAnimationFrame(draw);
 }
 
-// Inicializa el dibujo de los cuadrados
-draw();
-
 function resetGame() {
     // Llama a la función de reset para restablecer el juego
     reset();
 }
+
+// Inicializa el dibujo de los cuadrados
+draw();
+
+
 
